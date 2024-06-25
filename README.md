@@ -8,7 +8,7 @@ I have included:
 
 I wrote the code myself, frequently using Google and Microsoft Excel help to determine how to write various methods to do what I wanted. I did not get any help from any online AI programs. I've done a fair bit of Matlab coding, so the main challenge was finding the correct objects, methods, and notation used in VBA.
 
-Note that my code is based on the spreadsheet being sorted as it is given, i.e., by Ticker and by Date. If the spreadsheet were not sorted this way, then the code would have to be modified.
+Note that my code is based on the spreadsheet being sorted as it is given, i.e., by Ticker and by Date. If the spreadsheet were not sorted this way, the the spreadsheet should first be sorted by Ticker and then by Date. Sorting the spreadsheet this way will be much quicker than executing a for loop that has to loop through all of the data for each ticker and find the minimum and maximum dates and respective opening and closing prices for each ticker.
 
 A couple of concerns with the rubric:
 (1) The rubric mentions conditional formatting for the percent change column, but this was not requested nor shown in the example solution outputs. Only conditional formatting for the quarterly change was requested and shown.
